@@ -6,25 +6,32 @@ Custom Control Codes(from command line):
    
    This command installs the service as an administrator
    
-3. "coolproject.exe -uninstall"
+2. "coolproject.exe -uninstall"
+   
    This command uninstalls the service as an administrator
    
-4. "coolproject.exe -start"
+3. "coolproject.exe -start"
+   
    This command starts the service as administrator
    
-5. "coolproject.exe -stop"
+4. "coolproject.exe -stop"
+   
    This command stops the service as administrator
    
-6. "coolproject.exe -fmt xml"
+5. "coolproject.exe -fmt xml"
+    
    This command runs changes the file type, in which format and file the exchange rates will be stored
    
-7. "coolproject.exe -out c:\download"
+6. "coolproject.exe -out c:\download"
+    
    This command changes the path where the file will be stored
    
-8. "olproject.exe -interval 10"
+7. "olproject.exe -interval 10"
+    
    This command changes the interval at which the service will receive data on exchange rates. The value is the number of seconds
    
-9. "coolproject.exe -currency usd"
+8. "coolproject.exe -currency usd"
+    
    This command sets the currency for which you want to get the exchange rate
    
 P.S. You can combine teams. Example: "tool project.the -interval 10 -fmt hml"
