@@ -21,8 +21,14 @@ Custom Control Codes(from command line):
 P.S. You can combine teams. Example: "tool project.the -interval 10 -fmt hml"
 
 Config File:
+
+
 [Settings]
+
+
 fileType = csv                                                                           -  in which format and file type the exchange rates will be stored
+
+
 execInterval = 5                                                                         -  interval at which the service will receive data on exchange rates(sec). 
 filePath = D:\Projects\abz.agency\CoolProject\CoolProject\bin\Debug\Downloads\           -  the path where the file will be stored
 
